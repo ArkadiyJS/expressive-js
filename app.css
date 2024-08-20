@@ -1,109 +1,79 @@
-.header{
-    background-color: #202932;
-    width: 1920px;
-    height: 1000px;
-    background-position: center;
-
-
-}
-
-
-
-
-
-.header__conteiner{
-    width: 1540px;
-    height: 1001px;
-    padding-left: 190px;
-    padding-top: 42px;
-    
+body {
+    margin: 0;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
 
 }
-     .header__top{
-        
-        display: flex;
-        width: 1540px;
-        height: 150px;
-        align-items: center;
-        justify-content:  space-evenly;
-        
-        border-radius: 5px;
-        
-        gap: 20px;
 
+.solar-system {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
 
-     }
-     .header__logo{
-        display: flex;
-        
-        justify-content: flex-start;
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
 
-     }
-     .header__link__group{
-        display: flex;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
+.planet {
+    position: absolute;
+    border-radius: 50%;
+}
 
-     }
-     
+.mercury {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, 310%) translateY(-100px);
+    /* расстояние до Солнца */
+}
 
-     
-     .header__botton__group{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 20px;
+.venus {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-120%, 10%) translateY(-100px);
+    /* расстояние до Солнца */
+}
 
-     }
-     
-    .header__link{
-        color: #fff;
-    }
-    .header__button{
-        background-color:#464E60; 
-        width: 235px;
-        height: 65px;
-        color: #fff;
-        font-size: 18px;
-    }
+.earth {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, 10%) translateY(-100px);
+    /* расстояние до Солнца */
+}
 
-    .burrger__menu{ 
-        width: 66px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #464E60;
+.mars {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, 100%) translateY(-100px);
+    /* расстояние до Солнца */
+}
 
-        height: 65px;
-        top: 83px;
-        left: 1664px;
-        padding: 13px, 13px, 12px, 13px;
-        border-radius: 5px;
-        gap: 10px;
-
-    }
-
-    .header__main{
-        display: flex;
-        width: 1280px;
-        height: 375px;
-        color: #fff;
-        margin-top: 150px;
-        gap: 20px;
-        
-    }
-    .header__main p{
-        margin: 0;
-
-    }
-    .main__block2__text{
-        
-        font-size: 80px;
-    }
-    .main__block2__text2{
-        margin-top: 20px;
-    }
-    .GIP_green{
-        color: #33C078;
-    }
+.jupiter {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, 220%) translateY(-100px);
+    /* расстояние до Солнца */
+}
